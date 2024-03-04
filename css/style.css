@@ -17,6 +17,17 @@ body {
   line-height: 1.3;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -107,4 +118,8 @@ a {
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+.main {
+  flex-grow: 1;
 }
