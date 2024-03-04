@@ -56,3 +56,9 @@ a {
   justify-content: space-between;
   gap: 35px;
 }
+
+.footer {
+  background-color: #151515;
+  color: #fff;
+  padding: 50px 0 32px;
+}
