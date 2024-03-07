@@ -47,6 +47,13 @@ a {
   padding: 0 10px;
 }
 
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .header {
   background-color: #151515;
 }
@@ -188,10 +195,39 @@ a {
 }
 
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin-right: 30px;
+  margin: 0 15px;
 }
 
 .swiper-pagination-bullet-active {
   height: 6px;
   background-color: #fff;
+}
+
+.why-lease {
+  padding: 150px 0;
+}
+
+.why-lease__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.why-lease__item {
+  max-width: 270px;
+}
+
+.why-lease__img {
+  margin-bottom: 30px;
+}
+
+.why-lease__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.why-lease__text {
+  text-align: left;
 }
