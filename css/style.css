@@ -457,3 +457,81 @@ a {
   text-align: center;
   display: block;
 }
+
+.choose {
+  padding: 100px 0 150px;
+}
+
+.tabs__btn {
+  padding: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.tabs__btn-item {
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.tabs__btn-item--active {
+  color: #0066ff;
+}
+
+.tabs__content {
+  padding: 100px 0 70px;
+}
+
+.tabs__content-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
+}
+
+.tabs__content-item + .tabs__content-item {
+  margin-top: 100px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card__img {
+  display: block;
+}
+
+.card__content {
+  padding: 0 5px;
+  padding-top: 20px;
+  border: 1px solid #0066ff;
+  border-top: 0;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card__text {
+  margin-bottom: 20px;
+}
+
+.card__price {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card__link {
+  display: block;
+  color: #0066ff;
+  border: 1px solid #0066ff;
+  border-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
